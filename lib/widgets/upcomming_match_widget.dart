@@ -18,6 +18,7 @@ class UpCommingMatchWidget extends StatelessWidget {
           ),
           child: OpenContainer(
             closedColor: Color(0xff201d2b),
+            openColor: Color(0xff201d2b),
             transitionDuration: const Duration(milliseconds: 500),
             transitionType: ContainerTransitionType.fadeThrough,
             closedBuilder: ((context, action) {
